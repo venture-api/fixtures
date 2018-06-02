@@ -5,6 +5,6 @@ module.exports = {
         code: 'RDRN',
         ownerId: 'PL-YSL6H3DNRON2',
         type: 'iron ore',
-        region: 'Brookmarsh'
+        region: 'brookmarsh'
     }
 };
