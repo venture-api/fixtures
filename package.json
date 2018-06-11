@@ -1,6 +1,6 @@
 {
   "name": "@venture-api/fixtures",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Venture API testing fixtures",
   "main": "index.js",
   "scripts": {
