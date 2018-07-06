@@ -1,3 +1,3 @@
 module.exports = {
-    IRON_ORE: 'iron ore'
+    ironOre: 'iron ore'
 };

@@ -1,5 +1,5 @@
-const {IRON_ORE} = require('../constants/resource');
-const {FACTORY, WAREHOUSE} = require('../constants/facility');
+const {ironOre} = require('../constants/resource');
+const {factory, warehouse} = require('../constants/facility');
 const {bonner} = require('./player');
 const {brookmarsh} = require('./region');
 
@@ -10,8 +10,8 @@ module.exports = {
         id: 'FA-WTQA6GN3DK27IT-IO',
         code: 'RDRN',
         ownerId: bonner.id,
-        type: FACTORY,
-        resourceType: IRON_ORE,
+        type: factory,
+        resourceType: ironOre,
         region: brookmarsh.name
     },
     gawa: {
@@ -19,7 +19,7 @@ module.exports = {
         id: 'FA-6YMB7H63DCXBPQ-WH',
         code: 'GAWA',
         ownerId: bonner.id,
-        type: WAREHOUSE,
+        type: warehouse,
         region: brookmarsh.name
     }
 };
