@@ -2,7 +2,6 @@
   "name": "@venture-api/fixtures",
   "version": "0.2.4",
   "description": "Venture API testing fixtures",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
