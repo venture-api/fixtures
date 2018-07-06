@@ -1,5 +1,4 @@
 module.exports = {
-    $id: 'location',
     type: 'string',
     minLength: 3,
     maxLength: 50
