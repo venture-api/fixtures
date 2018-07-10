@@ -1,6 +1,6 @@
 const {ironOre} = require('../constants/resource');
-const {factory, warehouse} = require('../constants/facility');
-const {bonner} = require('./player');
+const {factory, warehouse, transport} = require('../constants/facility');
+const {bonner, adams} = require('./player');
 const {brookmarsh} = require('./region');
 
 
@@ -20,6 +20,14 @@ module.exports = {
         code: 'GAWA',
         ownerId: bonner.id,
         type: warehouse,
+        region: brookmarsh.name
+    },
+    boex: {
+        name: 'Boys Express',
+        id: 'FA-UDHRSBOWVE31O1-TR',
+        code: 'BOEX',
+        ownerId: adams.id,
+        type: transport,
         region: brookmarsh.name
     }
 };
