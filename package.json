@@ -1,6 +1,6 @@
 {
   "name": "@venture-api/fixtures",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "description": "Venture API fixtures",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
