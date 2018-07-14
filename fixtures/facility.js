@@ -1,5 +1,4 @@
-const {ironOre} = require('../constants/resource');
-const {factory, warehouse, transport} = require('../constants/facility');
+const {ironOre, factory, warehouse, transport} = require('../dictionary');
 const {bonner, adams} = require('./player');
 const {brookmarsh} = require('./region');
 
