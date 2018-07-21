@@ -1,5 +1,8 @@
 module.exports = {
+    self: 'self',
     facility: 'facility',
+    production: 'production',
+    produce: 'produce',
     factory: 'factory',
     warehouse: 'warehouse',
     transport: 'transport',
@@ -10,7 +13,7 @@ module.exports = {
     read: 'read',
     create: 'create',
     update: 'update',
-    delete: 'delete',
+    destroy: 'destroy',
     cooldown: 'cooldown',
     createdAt: 'createdAt',
     moisture: 'moisture'
