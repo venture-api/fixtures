@@ -1,11 +1,11 @@
-const verb = require('../dictionaries/verb');
+const {read, create, update, destroy} = require('../dictionary');
 
 
 module.exports = {
     verbs: {
-        get: verb.read,
-        post: verb.create,
-        patch: verb.update,
-        delete: verb.delete
+        get: read,
+        post: create,
+        patch: update,
+        delete: destroy
     }
 };
