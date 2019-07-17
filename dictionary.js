@@ -1,6 +1,7 @@
 module.exports = {
     self: 'self',
     facility: 'facility',
+    facilities: 'facilities',
     production: 'production',
     produce: 'produce',
     factory: 'factory',
