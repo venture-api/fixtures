@@ -1,6 +1,6 @@
-const {ironOre, factory, warehouse, transport} = require('../dictionary');
-const {bonner, adams} = require('./player');
-const {brookmarsh} = require('./region');
+const { ironOre, mine, warehouse, transport } = require('../dictionary/words');
+const { bonner, adams } = require('./player');
+const { brookmarsh } = require('./region');
 
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
         id: 'FA-WTQA6GN3DK27IT-IO',
         code: 'RDRN',
         ownerId: bonner.id,
-        type: factory,
+        type: mine,
         resourceType: ironOre,
         region: brookmarsh.name
     },

@@ -2,9 +2,11 @@ module.exports = {
     self: 'self',
     facility: 'facility',
     facilities: 'facilities',
+    resources: 'resources',
     production: 'production',
     produce: 'produce',
     factory: 'factory',
+    mine: 'mine',
     warehouse: 'warehouse',
     transport: 'transport',
     player: 'player',
@@ -17,5 +19,9 @@ module.exports = {
     destroy: 'destroy',
     cooldown: 'cooldown',
     createdAt: 'createdAt',
-    moisture: 'moisture'
+    moisture: 'moisture',
+    produced: 'produced',
+    token: 'token',
+    generate: 'generate',
+    request: 'request'
 };
