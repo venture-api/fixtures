@@ -7,13 +7,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/venture-api/fixtures.git"
+    "url": "https://github.com/venture-api/fixtures.git"
   },
   "type": "module",
   "author": "Maksim Korinets",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://gitlab.com/venture-api/fixtures/issues"
+    "url": "https://github.com/venture-api/fixtures/issues"
   },
-  "homepage": "https://gitlab.com/venture-api/fixtures"
+  "homepage": "https://github.com/venture-api/fixtures"
 }
