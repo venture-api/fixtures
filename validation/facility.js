@@ -1,7 +1,8 @@
-const w = require('../dictionary/words');
+import w from '../dictionary/words.js';
+import ph from '../dictionary/phrases.js';
 
 
-module.exports = {
+export default {
 
     type: 'object',
 
@@ -33,7 +34,7 @@ module.exports = {
 
         resourceType: {
             type: 'string',
-            enum: [ w.ironOre ]
+            enum: [ ph.ironOre ]
         }
     },
 

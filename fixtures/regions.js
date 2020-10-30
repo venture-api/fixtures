@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     grasswall: {
         name: 'grasswall',
         defects: ['moisture'],

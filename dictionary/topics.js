@@ -1,11 +1,11 @@
-const w = require('./words');
+import w from './words.js';
 
 
-module.exports = {
+export default {
     resourceProduced: `${w.resource}.${w.produced}`,
     signToken: `${w.token}.sign`,
     verifyToken: `${w.token}.verify`,
-    identify: 'identify',
+    identify: w.identify,
     getRegion: `${w.region}.get`,
     checkACE: 'ace.check',
     generateId: `id.${w.generate}`,

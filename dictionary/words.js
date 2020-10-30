@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     self: 'self',
     facility: 'facility',
     facilities: 'facilities',
@@ -12,7 +12,6 @@ module.exports = {
     player: 'player',
     region: 'region',
     resource: 'resource',
-    ironOre: 'iron ore',
     read: 'read',
     create: 'create',
     update: 'update',
@@ -23,5 +22,8 @@ module.exports = {
     produced: 'produced',
     token: 'token',
     generate: 'generate',
-    request: 'request'
+    request: 'request',
+    iron: 'iron',
+    ore: 'ore',
+    identify: 'identify'
 };

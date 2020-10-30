@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     bonner: {
         email: 'FrederickKBonner@dayrep.com',
         name: 'Frederick K. Bonner',

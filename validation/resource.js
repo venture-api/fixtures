@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     id: {
         type: 'string',
         minLength: 24,

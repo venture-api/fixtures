@@ -9,6 +9,7 @@
     "type": "git",
     "url": "https://gitlab.com/venture-api/fixtures.git"
   },
+  "type": "module",
   "author": "Maksim Korinets",
   "license": "UNLICENSED",
   "bugs": {
