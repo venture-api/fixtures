@@ -1,3 +1,4 @@
 export default {
-    facilityId: 'facilityId'
+    facilityId: 'facilityId',
+    workerId: 'workerId'
 };

@@ -15,5 +15,6 @@ export default {
     generateFacilityCode: `${w.facility}.code.${w.generate}`,
     requestResourceData: `${w.resource}.data.${w.request}`,
     facilityCreated: `${w.facility}.created`,
-    transportOrdered: `${w.transport}.ordered`
+    transportOrdered: `${w.transport}.ordered`,
+    UOW: w.UOW
 };

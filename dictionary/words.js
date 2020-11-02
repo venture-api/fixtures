@@ -1,3 +1,6 @@
+/* words and abbreviations */
+
+
 export default {
     self: 'self',
     facility: 'facility',
@@ -15,8 +18,6 @@ export default {
     read: 'read',
     create: 'create',
     update: 'update',
-    destroy: 'destroy',
-    cooldown: 'cooldown',
     createdAt: 'createdAt',
     moisture: 'moisture',
     produced: 'produced',
@@ -25,5 +26,7 @@ export default {
     request: 'request',
     iron: 'iron',
     ore: 'ore',
-    identify: 'identify'
+    identify: 'identify',
+    UOW: 'UOW', // Unit Of Work
+    ACE: 'ACE' // Access Control Entry
 };
