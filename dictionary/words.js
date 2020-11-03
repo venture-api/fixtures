@@ -28,5 +28,6 @@ export default {
     ore: 'ore',
     identify: 'identify',
     UOW: 'UOW', // Unit Of Work
-    ACE: 'ACE' // Access Control Entry
+    ACE: 'ACE', // Access Control Entry
+    ACL: 'ACL' // Access Control List
 };
