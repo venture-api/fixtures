@@ -1,5 +1,5 @@
-import w from '../dictionary/words.js';
-import ph from '../dictionary/phrases.js';
+import { words as w, phrases as ph } from '../dictionary';
+import id from './id';
 
 
 export default {
@@ -8,12 +8,7 @@ export default {
 
     properties: {
 
-        id: {
-            type: 'string',
-            minLength: 20,
-            maxLength: 20 // FC-WTQA6GN3DK27IT-GN
-            // TODO probably add regex pattern
-        },
+        id,
 
         name: {
             type: 'string',
