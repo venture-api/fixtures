@@ -10,7 +10,7 @@ export default {
         name: {
             type: 'string',
             minLength: 3
-        }
-
+        },
+        level: { enum: [ 0, 1, 2, 3 ]}
     }
 }

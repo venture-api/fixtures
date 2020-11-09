@@ -1,4 +1,5 @@
 export default {
     facilityId: 'facilityId',
-    workerId: 'workerId'
+    workerId: 'workerId',
+    playerId: 'playerId'
 };

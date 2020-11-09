@@ -27,7 +27,11 @@ export default {
     iron: 'iron',
     ore: 'ore',
     identify: 'identify',
+    worker: 'worker',
+    human: 'human',
     UOW: 'UOW', // Unit Of Work
     ACE: 'ACE', // Access Control Entry
-    ACL: 'ACL' // Access Control List
+    ACL: 'ACL', // Access Control List
+    spawned: 'spawned',
+    spawn: 'spawn'
 };
